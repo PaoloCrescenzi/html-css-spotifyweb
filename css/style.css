@@ -158,4 +158,32 @@
     background-color: rgb(20, 25, 34);
   }
 
-  
+  .green-line{
+    background-color: rgb(158, 233, 46);
+    width: 40px;
+    height: 3px;
+  }
+
+  .categories{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    color: rgb(121, 124, 128);
+  }
+
+  .row-title h2{
+    padding-left: 2rem;
+  }
+
+  .row{
+    display: flex;
+    padding: 2rem;
+    
+  }
+
+  .col-1_2{
+    height: calc(100% / 2);
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+
