@@ -1,0 +1,41 @@
+/* SM - small */
+@media screen and (min-width: 568px) {
+    .sidebar {
+      width: 250px;
+    }
+    
+    .sidebar .middle-section .playlist-container {
+      display: block;
+    }
+  
+    .sidebar .sidebar-list a {
+      justify-content: flex-start;
+    }
+  
+    .sidebar .sidebar-list .main-logo {
+      font-size: .5rem;
+    }
+  
+    .sidebar .sidebar-list .logo-small {
+      display: none;
+    }
+  
+    .sidebar .sidebar-list .logo-large {
+      display: none;
+    }
+  
+    .sidebar .sidebar-list .list-item-icon {
+      margin-right: 1rem;
+    }
+  
+    .sidebar .sidebar-list .list-item-text {
+      display: block;
+    }
+  }
+  
+  /* MD - medium */
+  @media screen and (min-width: 768px) {}
+  
+  /* LG - large */
+  @media screen and (min-width: 992px) {}
+  
